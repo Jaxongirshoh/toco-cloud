@@ -26,6 +26,7 @@ public class OrderController {
         if (errors.hasErrors()){
             return "orderForm";
         }
+        System.out.println(tacoOrder);
         log.info("Order submitted : {}",tacoOrder);
         return "redirect:/";
     }
