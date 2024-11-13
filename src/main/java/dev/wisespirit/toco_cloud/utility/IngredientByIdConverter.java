@@ -9,6 +9,7 @@ import java.util.Map;
 
 
 @Component
+@Deprecated
 public class IngredientByIdConverter implements Converter<String, Ingredient> {
 
     Map<String, Ingredient> ingredientMap = new HashMap<>();

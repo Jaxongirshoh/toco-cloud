@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
 import java.util.Optional;
 
 @Repository
+@Deprecated
 public class JdbcIngredientRepository implements IngredientRepository {
 
     private final JdbcTemplate jdbcTemplate;
